@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.week6day4barcode.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:onClick="barcodeScanner"
+        android:text="Scan"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvScanResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp" />
+    <Button
+        android:onClick="memoryLeak"
+        android:text="Memory Leaks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
